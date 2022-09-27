@@ -5,7 +5,7 @@ const removeFromArray = function(array,...removeThis) {
 	        if (array[j] === removeThis[i]){
 	            array.splice(j,1);
 	        }
-}
+        }
     }
     return array;
 };
